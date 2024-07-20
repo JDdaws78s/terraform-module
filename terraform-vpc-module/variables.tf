@@ -82,6 +82,10 @@ variable "database_subnet_cidrs" {
   }
 }
 
+variable "database_subnet_group_tags" {
+  default = {}
+  
+}
 #### NAT Tags ####
 variable "nat_gateway_tags" {
   type = map
