@@ -8,7 +8,7 @@ terraform {
 
     backend "s3" {
         bucket = "suresh-terraform-remote-state"
-        key    = "ec2-module"
+        key    = "vpc-test"
         region = "us-east-1"
         dynamodb_table = "remote-locking"
     }
